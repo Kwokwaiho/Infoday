@@ -48,7 +48,9 @@ class BookmarkFragment : Fragment() {
                     val dao = AppDatabase.getInstance(context).eventDao()
                     val events = dao.findAllBookmarkedEvents()
                     CoroutineScope(Dispatchers.Main).launch {
-                        adapter = BookmarkEventRecyclerViewAdapter(events)
+                        //adapter = BookmarkEventRecyclerViewAdapter(events)
+                        adapter = BookmarkEventRecyclerViewAdapter(events.toMutableList())
+
                     }
                 }
             }

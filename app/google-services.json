@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "380545059837",
+    "firebase_url": "https://comp4097-infoday.firebaseio.com",
+    "project_id": "comp4097-infoday",
+    "storage_bucket": "comp4097-infoday.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380545059837:android:3b913fc83a02d67776e794",
+        "android_client_info": {
+          "package_name": "comp4097.comp.hkbu.edu.hk.infoday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380545059837-ed3r4ruvkvhu6ss57rh7cf29bv09vkts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4fvyGGcVcpZEJv2VgCTJ_UOHa5sGZrKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380545059837-ed3r4ruvkvhu6ss57rh7cf29bv09vkts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
